@@ -1,2 +1,2 @@
-import strimlit
-stirmlit.title( 'Hello My Friend')
+import streamlit
+streamlit.title( 'Hello My Friend')
