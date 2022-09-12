@@ -43,7 +43,7 @@ try:
 except URLerror as e:
   Streamlit.error()
       
-      streamlit.write('The user entered ', fruit_choice)
+      #streamlit.write('The user entered ', fruit_choice) --> introduced error handling hence this is not valid anymore.
 
 
 
