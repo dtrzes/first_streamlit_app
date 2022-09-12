@@ -31,7 +31,7 @@ streamlit.header("Fruityvice Fruit Advice!")
 
 #Create a repatable block of code called FUNCTION
 
-def get_fruityvice_data(this_fruit_choice)
+def get_fruityvice_data(this_fruit_choice):
       fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
       # write your own comment -what does the next line do? - normalize json file
       fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
