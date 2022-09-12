@@ -50,7 +50,7 @@ except URLError as e:
   Streamlit.error()
       
 #don`t run anything past here while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 #import snowflake.connector --> move it to the top of screen
 streamlit.header("The fuit load list contains:")
